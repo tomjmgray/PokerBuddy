@@ -1,0 +1,62 @@
+:root {
+  --black: #050505;
+  --blue: #1b9aaa;
+  --med: #dddbcb;
+  --light: #f5f1e3;
+  --white: #f9f9f9;
+}
+
+body, header, footer {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--black)
+}
+
+/* a {
+  color: var(--black);
+  text-decoration: none;
+} */
+
+main {
+  width: 100%;
+  padding:  5% 10%;
+  height: 80vh;
+  background-color: var(--white);
+}
+
+header {
+  height: 10vh;
+  background-color: var(--blue);
+}
+
+
+
+
+footer {
+  height: 10vh;
+}
+
+.black {
+  color: var(--black);
+}
+.blue {
+  color: var(--blue);
+}
+.med {
+  color: var(--med);
+}
+.light {
+  color: var(--light);
+}
+.white {
+  color: var(--white);
+}
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
